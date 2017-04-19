@@ -1,0 +1,84 @@
+article{
+    width: 450px;
+    margin: auto;
+}
+
+.tweeting {
+   padding: 0px;
+   margin-top: 40px;
+   background: white;
+   border-radius: 10px;
+   border: 1px #aaa solid;
+   opacity: .6;
+   transition: .5s all ease-in-out;
+}
+
+.tweeting:hover {
+   opacity: 1;
+   transition: .5s all ease-in-out;
+}
+
+article header {
+  background: rgba(170, 170, 170, 0.29);
+   border-bottom: 1px rgba(170, 170, 170, 0.29) solid;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   height: 80px;
+   padding: 10px;
+}
+
+.tweeting .avatar {
+  width: 60px;
+  height: 60px;
+  float: left;
+  border-radius: 10px
+}
+
+.tweeting .user-name {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    font-weight: lighter;
+    color: grey;
+    margin: auto
+}
+
+.tweeting h2 {
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding-bottom: 20px;
+   padding-left: 75px;
+}
+
+.tweeting .tweetmsg {
+  padding: 10px;
+}
+
+.tweeting footer {
+   background: white;
+   border-top: 1px rgba(170, 170, 170, 0.29) solid;
+   padding: 15px 10px;
+   margin: 0px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.tweeting .icons {
+   float: right;
+   opacity: 0;
+   transition: .5s all ease-in-out;
+   
+}
+
+.tweeting:hover footer .icons {
+    opacity: 1;
+    transition: .5s all ease-in-out;
+}
+
+#heart {
+    padding: 0 8px;
+}
+
+#id {
+    padding: 0 8px;
+}

@@ -6,21 +6,19 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i,700i" rel="stylesheet">
 
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css"/>
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/styles/tweets.css" type="text/css"/>
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
-
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/app.js"></script>
   </head>
-
   <body>
 
     <!-- Top nav bar (fixed) -->
@@ -28,7 +26,6 @@
       <img class="logo" src="/images/bird.png" width="80px" height="80px">
       <span class="header">Tweeter</span>
     </nav>
-
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
@@ -39,6 +36,25 @@
           <span class="counter">140</span>
         </form>
       </section>
+      <article class="tweeting">
+        <header>
+          <img class="avatar" src="http://bit.ly/RhrMEn" />
+          <h2 class="name">Bill Fields</h2>
+          <span class="user-name"> @MrFields </span>
+        </header>
+        <div class="body">
+          <p class="tweetmsg">Little Tweet here </p>
+        <footer>
+          <span class="time-stamp"> 10 Days ago </span>
+          <div class="icons">
+            <i class="fa fa-flag" aria-hidden="true"></i>
+            <i class="fa fa-retweet" aria-hidden="true"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </div>
+        </footer>
+      </section>
     </main>
+    <!-- Counter JS -->
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </body>
 </html>
