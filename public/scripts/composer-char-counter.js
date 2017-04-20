@@ -10,7 +10,4 @@ $(function () {
       $('.counter').css('color', 'red');
     }
   });
-  $(".new-tweet form").submit(function() {
-    $(".counter").text(maxLength);
-  });
 });

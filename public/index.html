@@ -25,6 +25,10 @@
     <nav id="nav-bar">
       <img class="logo" src="/images/bird.png" width="80px" height="80px">
       <span class="header">Tweeter</span>
+      <div class="Top button">
+        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+        <input type="button"  value="Compose">
+      </div>
     </nav>
     <!-- Page-specific (main) content here -->
     <main class="container">
@@ -35,23 +39,9 @@
           <input type="submit" value="Tweet">
           <span class="counter">140</span>
         </form>
+        <h3 class="validation"> Your Tweet was either empty or over 140 character. </h3> 
       </section>
-      <article class="tweeting">
-        <header>
-          <img class="avatar" src="http://bit.ly/RhrMEn" />
-          <h2 class="name">Bill Fields</h2>
-          <span class="user-name"> @MrFields </span>
-        </header>
-        <div class="body">
-          <p class="tweetmsg">Little Tweet here </p>
-        <footer>
-          <span class="time-stamp"> 10 Days ago </span>
-          <div class="icons">
-            <i class="fa fa-flag" aria-hidden="true"></i>
-            <i class="fa fa-retweet" aria-hidden="true"></i>
-            <i class="fa fa-heart" aria-hidden="true"></i>
-          </div>
-        </footer>
+      <section id="tweets-container">
       </section>
     </main>
     <!-- Counter JS -->

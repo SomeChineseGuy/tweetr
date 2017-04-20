@@ -23,11 +23,10 @@ body {
 
 main {
   width: 600px;
-  height: 2000px;
   background-color: #fff;
   margin: auto;
   padding-top: 100px;
-  padding: 2em;
+  padding-bottom: 50px;
 }
 
 

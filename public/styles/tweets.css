@@ -1,11 +1,10 @@
-article{
+article {
     width: 450px;
     margin: auto;
 }
 
 .tweeting {
-   padding: 0px;
-   margin-top: 40px;
+   margin-top: 30px;
    background: white;
    border-radius: 10px;
    border: 1px #aaa solid;
@@ -58,7 +57,6 @@ article header {
    background: white;
    border-top: 1px rgba(170, 170, 170, 0.29) solid;
    padding: 15px 10px;
-   margin: 0px;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
 }
@@ -75,10 +73,10 @@ article header {
     transition: .5s all ease-in-out;
 }
 
-#heart {
+.fa.fa-heart {
     padding: 0 8px;
 }
 
-#id {
+.fa.fa-flag {
     padding: 0 8px;
 }

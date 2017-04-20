@@ -2,7 +2,7 @@
     padding: 0 2em;
     background-color: #D5D5D5;
     width: 450px;
-    margin: 100px auto
+    margin: 20px auto
 }
 
 .new-tweet > h2 {
@@ -30,4 +30,9 @@ section.new-tweet {
     border: 1px solid darkgrey;
     border-radius: 10px;
     height: 150px;
+}
+
+.validation {
+    color: red;
+    visibility: hidden;
 }

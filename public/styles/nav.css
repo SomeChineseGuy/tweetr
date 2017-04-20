@@ -28,3 +28,16 @@
   line-height: 1.6em;
   font-size: 3em;
 }
+nav div input {
+  float: right;
+  height: 60px;
+  padding: 0em 1em;
+  margin-top: 10px;
+  font-size: 25px;
+  background-color: lightcyan;
+  border-radius: 5px;
+}
+
+nav input:hover {
+  background-color: white;
+}
